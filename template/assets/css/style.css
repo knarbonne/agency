@@ -18722,7 +18722,6 @@ textarea.form-control-lg {
 
 .form-dark .form-control {
   background: transparent;
-  border-color: var(--bs-gray-700);
   color: var(--bs-gray-500);
 }
 .form-dark .form-control:focus {
@@ -19100,7 +19099,7 @@ header.navbar-sticky-on .navbar-brand .navbar-brand-item {
   padding-bottom: 30px;
 }
 .navbar-brand .navbar-brand-item {
-  height: 45px;
+  height: 30px;
   display: block;
   width: auto;
 }
@@ -21491,17 +21490,6 @@ a.text-primary-hover:hover, button.text-primary-hover:hover {
   right: 0;
   bottom: 0;
   background: var(--bs-white);
-  z-index: -1;
-}
-
-.bg-dark-start:before {
-  content: "";
-  position: absolute;
-  width: 1000%;
-  height: 100%;
-  right: 0;
-  bottom: 0;
-  background: var(--bs-gray-800);
   z-index: -1;
 }
 

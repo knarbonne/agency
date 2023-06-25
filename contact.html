@@ -138,9 +138,9 @@ Header END -->
 Contact form and map START -->
 		<section class="p-0 pb-4 pb-md-0 bg-dark position-relative">
 			<div class="container">
-				<div class="row g-0 justify-content-lg-between">
-					<div class="col-md-6 bg-dark-start z-index-m9 position-relative h-md-800 d-flex align-items-center z-index-9">
-						<div class="position-relative py-5 pe-0 pe-md-6">
+				<div class="row g-0 p-2">
+					<div class="col-md-12 bg-dark-start z-index-m9 position-relative d-flex align-items-center z-index-9">
+						<div class="position-relative p-6 pe-md-6">
 							<h1 class="text-white-stroke">Don't be shy, say hi!</h1>
 							<h6 class="text-white">Have a question, a project? We'd love to discuss... </h6>
 							<!-- Form START -->
@@ -151,7 +151,7 @@ Contact form and map START -->
 									<div class="col-md-6">
 										<!-- name -->
 										<div class="mb-3 position-relative">
-											<input required id="con-name" name="name" type="text" class="form-control" placeholder="Name">
+											<input required id="con-name" name="name" type="text" class="form-control" placeholder="Name" required>
 											<span class="focus-border"></span>
 										</div>
 									</div>
@@ -159,7 +159,7 @@ Contact form and map START -->
 										<!-- email -->
 										<div class="mb-3 position-relative">
 											<input required id="con-email" name="email" type="email" class="form-control"
-												placeholder="E-mail">
+												placeholder="E-mail" required>
 											<span class="focus-border"></span>
 										</div>
 									</div>
@@ -167,15 +167,79 @@ Contact form and map START -->
 										<!-- Subject -->
 										<div class="mb-3 position-relative">
 											<input required id="con-subject" name="subject" type="text" class="form-control"
-												placeholder="Subject">
+												placeholder="Subject" required>
 											<span class="focus-border"></span>
 										</div>
 									</div>
 									<div class="col-md-12">
+										<!-- Subject -->
+										<div class="mb-3 position-relative">
+											<input required id="con-subject" name="subject" type="text" class="form-control"
+												placeholder="Phone No./Whatsapp/LineID (Optional)">
+											<span class="focus-border"></span>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<!-- Subject -->
+										<div class="mb-3 position-relative">
+											<h6 class="mt-2 text-white">Your budget</h6>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" name="budget" value="5000 USD" id="budgetIndicator">
+												<label class="form-check-label" for="budgetIndicator">
+													5,000 USD
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" name="budget" value="5000-10000 USD" id="budgetIndicator">
+												<label class="form-check-label" for="budgetIndicator">
+													5,000-10,000 USD
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" name="budget" value="10000-20000 USD" id="budgetIndicator">
+												<label class="form-check-label" for="budgetIndicator">
+													10,000-20,000 USD
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" name="budget" value="over 20000 USD" id="budgetIndicator">
+												<label class="form-check-label" for="budgetIndicator">
+													Over 20,000 USD
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" name="budget" value="over 20000 USD" id="budgetIndicator">
+												<label class="form-check-label" for="budgetIndicator">
+													100,000,000,000,000,000,000,000 USD (For K. Pensuk)
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<h6 class="mt-2 text-white">What services do you need?</h6>
+										<div class="form-check form-switch ml-2">
+											<input class="form-check-input" type="checkbox" name="brandStrategyService" id="brandStrategyService">
+											<label class="form-check-label" for="brandStrategyService">Brand Strategy</label>
+										</div>
+										<div class="form-check form-switch">
+											<input class="form-check-input" type="checkbox" name="DigitalMarketingService" id="DigitalMarketingService">
+											<label class="form-check-label" for="DigitalMarketingService">Digital Marketing</label>
+										</div>
+										<div class="form-check form-switch">
+											<input class="form-check-input" type="checkbox" name="CreativeExecutionService" id="CreativeExecutionService">
+											<label class="form-check-label" for="CreativeExecutionService">Creative Execution</label>
+										</div>
+										<div class="form-check form-switch">
+											<input class="form-check-input" type="checkbox" name="EventsAndActivationsSerivce" id="EventsAndActivationsSerivce">
+											<label class="form-check-label" for="EventsAndActivationsSerivce">Events and Activation</label>
+										</div>
+									</div>
+									
+									<div class="col-md-12">
 										<!-- Message -->
 										<div class="mb-3 position-relative">
 											<textarea required id="con-message" name="message" cols="40" rows="6" class="form-control"
-												placeholder="Message"></textarea>
+												placeholder="Message (Optional)"></textarea>
 											<span class="focus-border"></span>
 										</div>
 									</div>							
@@ -185,14 +249,6 @@ Contact form and map START -->
 								</div>
 							</form>
 							<!-- Form END -->
-						</div>
-					</div>
-					<div class="col-md-6 col-md-full-right">
-						<!-- Google map -->
-						<div class="position-md-absolute end-0 top-0 w-100 h-400 h-md-800 bg-dark">
-							<iframe class="w-100 h-100 grayscale"
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sin!4v1586000412513!5m2!1sen!2sin"
-								style="border:0;" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div> <!-- Row END -->

@@ -57,7 +57,6 @@
 .form-dark {
   .form-control{
     background: transparent;
-    border-color: var(--#{$prefix}gray-700);
     color: var(--#{$prefix}gray-500);
       &:focus {
       color: var(--#{$prefix}white);

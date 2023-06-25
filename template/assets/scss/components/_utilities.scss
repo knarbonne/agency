@@ -79,16 +79,6 @@ a.text-primary-hover, button.text-primary-hover {
   background: var(--#{$prefix}white);
   z-index: -1;
 }
-.bg-dark-start:before {
-  content: '';
-  position: absolute;
-  width: 1000%;
-  height: 100%;
-  right: 0;
-  bottom: 0;
-  background: var(--#{$prefix}gray-800);
-  z-index: -1;
-}
 .bg-primary-end:before {
   content: '';
   position: absolute;
