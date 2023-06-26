@@ -21432,7 +21432,7 @@ small,
   }
 }
 .text-primary-hover a {
-  color: var(--bs-gray-500);
+  color: var(--bs-gray-700);
 }
 .text-primary-hover a:hover {
   color: var(--bs-primary) !important;

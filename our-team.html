@@ -18,6 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="/template/assets/vendor/font-awesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="/template/assets/vendor/bootstrap-icons/bootstrap-icons.css">
 	<link rel="stylesheet" type="text/css" href="/template/assets/vendor/animate/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="/template/assets/vendor/glightbox/css/glightbox.css">
 
 	<!-- Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="/template/assets/css/style.css">
@@ -25,13 +26,13 @@
 </head>
 
 <body>
+	
+<!-- Pre loader -->
+<div class="preloader">
+	<img class="preloader-item" src="/template/assets/images/loader/02.gif" alt="Loading">
+</div>
 
-	<!-- Pre loader -->
-	<div class="preloader">
-		<img class="preloader-item" src="/template/assets/images/loader/02.gif" alt="Loading">
-	</div>
-
-<!-- =======================
+	<!-- =======================
 Header START -->
 <header class="navbar-light navbar-sticky">
 	<!-- Logo Nav START -->
@@ -58,11 +59,11 @@ Header START -->
 					<!-- Menu item 2 Services -->
 					<li class="nav-item"> <a class="nav-link" href="service.html">Services</a></li>
 
-					<!-- Menu item 3 Mision & Vision -->
-					<li class="nav-item"> <a class="nav-link" href="mission-and-vision.html">Mission & Vision</a></li>
-
 					<!-- Menu item 4 Approach -->
 					<li class="nav-item"> <a class="nav-link" href="approach.html">Our Approach</a></li>
+
+					<!-- Menu item 3 Mision & Vision -->
+					<li class="nav-item"> <a class="nav-link" href="our-team.html">Our Team</a></li>
 
 					<!-- Menu item 6 Contact-->
 					<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
@@ -84,32 +85,103 @@ Header START -->
 </header>
 <!-- =======================
 Header END -->
+
 <!-- **************** MAIN CONTENT START **************** -->
 <main>
 
+
 <!-- =======================
-Inner intro START -->
-<section>
+Our team START -->
+<section class="pt-0 mt-6">
 	<div class="container">
-		<div class="row d-flex justify-content-lg-between">
-			<!-- Inner intro title -->
-			<div class="col-lg-7 mx-auto mb-8 text-center">
-				<div class="position-relative">
-					<svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-					  <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
-					  <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
-					</svg>
+		<div class="row">
+			<!-- Title -->
+			<div class="col-lg-8 mb-5">
+				<h2 class="mb-4 display-6">Meet Our <span class="text-dark-stroke"><span
+					style="color: #6B2629">CO</span>-FOUNDERS</span></h2>
+				<p>Our friendly team members are always willing to help you understand your present technology requirements and provide suggestions on your future needs.</p>
+			</div>
+		</div> <!-- Row END -->
+		<div class="row">
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 mb-30">
+				<a href="#" class="card card-metro">
+					<!-- Card Image -->
+					<div class="card-image">
+						<img src="/template/assets/images/team/01.jpg" alt="card image">
+					</div>
+					<!-- Card Overlay -->
+					<div class="card-img-overlay d-flex flex-column">
+						<div class="mt-auto card-text">
+							<h5 class="text-white">Nadia Fiat</h5>
+							<p class="small text-white mb-0">Co-Founder & Strategist</p>
+						</div>
+					</div>						
+				</a>
+			</div>
+			<!-- Card item END -->
+
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 mb-30">
+				<a href="#" class="card card-metro">
+					<!-- Card Image -->
+					<div class="card-image">
+						<img src="/template/assets/images/team/02.jpg" alt="card image">
+					</div>
+					<!-- Card Overlay -->
+					<div class="card-img-overlay d-flex flex-column">
+						<div class="mt-auto card-text">
+							<h5 class="text-white">Nina Pimpisa</h5>
+							<p class="small text-white mb-0">Co-Founder & Brand Strategist</p>
+						</div>
+					</div>						
+				</a>
+			</div>
+			<!-- Card item END -->
+
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 mb-30">
+				<a href="#" class="card card-metro">
+					<!-- Card Image -->
+					<div class="card-image">
+						<img src="/template/assets/images/team/03.jpg" alt="card image">
+					</div>
+					<!-- Card Overlay -->
+					<div class="card-img-overlay d-flex flex-column">
+						<div class="mt-auto card-text">
+							<h5 class="text-white">Krissada Narbonne</h5>
+							<p class="small text-white mb-0 text-truncate">
+								Co-Founder & Business Strategist
+							</p>
+						</div>
+					</div>						
+				</a>
+			</div>
+			<!-- Card item END -->
+
+<!-- =======================
+Action box START -->
+<section class="bg-primary">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="d-flex justify-content-between align-items-center">
+					<!-- Title -->
+					<div>
+						<h2 class="text-white-stroke display-5">Join the team</h2>
+						<p class="lead text-white pe-0 pe-lg-6">We are hiring! Join our team Creative Agency Specializing in: Video Production, Web Design, Branding, Brand Strategy.</p>
+					</div>
+					<!-- Button -->
+					<div>
+						<a href="#" class="btn btn-dark btn-line btn-lg">Apply now!</a>
+					</div>
 				</div>
-				<h1 class="display-5">Thank you!</h1>
-				<p class="lead">We appreciate that you’ve taken the time to write us. We’ll get back to you very soon. Please come back and see us often.</p>
-				<a href="index.html" class="btn btn-line btn-primary mt-3">Back to home</a>
 			</div>
 		</div> <!-- Row END -->
 	</div>
 </section>
 <!-- =======================
-Inner intro END -->
-
+Action box END -->
 
 </main>
 <!-- **************** MAIN CONTENT END **************** -->
@@ -185,22 +257,19 @@ Footer END -->
 	<span class="scoll-text">Go Up</span>
 </div>
 
-<!-- =======================
-JS libraries, plugins and custom scripts -->
+	<!-- Bootstrap JS -->
+	<script src="/template/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Bootstrap JS -->
-<script src="/template/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Vendors -->
+	<script src="/template/assets/vendor/tiny-slider/tiny-slider.js"></script>
+	<script src="/template/assets/vendor/glightbox/js/glightbox.js"></script>
+	<script src="/template/assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+	<script src="/template/assets/vendor/jarallax/jarallax.min.js"></script>
+	<script src="/template/assets/vendor/aos/aos.js"></script>
+	<script src="/template/assets/vendor/ityped/index.js"></script>
 
-<!-- Vendors -->
-<script src="/template/assets/vendor/tiny-slider/tiny-slider.js"></script>
-<script src="/template/assets/vendor/glightbox/js/glightbox.js"></script>
-<script src="/template/assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
-<script src="/template/assets/vendor/jarallax/jarallax.min.js"></script>
-<script src="/template/assets/vendor/aos/aos.js"></script>
-<script src="/template/assets/vendor/ityped/index.js"></script>
-
-<!-- Template Functions -->
-<script src="/template/assets/js/functions.js"></script>
+	<!-- Template Functions -->
+	<script src="/template/assets/js/functions.js"></script>
 
 </body>
 </html>
