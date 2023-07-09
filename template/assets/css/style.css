@@ -50,7 +50,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Rubik, sans-serif;
+  --bs-body-font-family: Spartan, sans-serif;
   --bs-body-font-size: 0.875rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.6;
@@ -4684,7 +4684,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0;
-  --bs-navbar-color: #515155;
+  --bs-navbar-color: #19191c;
   --bs-navbar-hover-color: #6B2629;
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: #6B2629;
@@ -6855,7 +6855,7 @@ textarea.form-control-lg {
   display: block;
   padding: var(--bs-tooltip-arrow-height);
   margin: var(--bs-tooltip-margin);
-  font-family: "Rubik", sans-serif;
+  font-family: "Spartan", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.6;
@@ -6965,7 +6965,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Rubik", sans-serif;
+  font-family: "Spartan", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.6;
@@ -18964,7 +18964,7 @@ img.img-grayscale {
 
 .navbar-nav .nav-link {
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 90px;
   padding-top: 0;
@@ -21433,6 +21433,7 @@ small,
 }
 .text-primary-hover a {
   color: var(--bs-gray-700);
+  font-weight: bold;
 }
 .text-primary-hover a:hover {
   color: var(--bs-primary) !important;
@@ -21527,7 +21528,7 @@ a.text-primary-hover:hover, button.text-primary-hover:hover {
 }
 
 .font-base {
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Spartan", sans-serif !important;
 }
 
 .font-heading {

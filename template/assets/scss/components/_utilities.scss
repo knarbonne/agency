@@ -18,7 +18,8 @@
 // text color on hover
 .text-primary-hover {
   a {
-    color: var(--#{$prefix}gray-500);
+    color: var(--#{$prefix}gray-700);
+    font-weight: bold;
     &:hover {
       color: var(--#{$prefix}primary) !important;
     }
