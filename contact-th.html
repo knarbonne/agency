@@ -393,8 +393,8 @@ JS libraries, plugins and custom scripts -->
 <!-- Bootstrap JS -->
 <script src="/template/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Add Facebook Pixel Event Tracking -->
-  <script>
+<!-- Add Facebook Pixel Event Tracking -->
+<script>
 	document.getElementById('contact-form').addEventListener('submit', function(event) {
 	  // Prevent the form from submitting immediately
 	  event.preventDefault();
@@ -404,9 +404,9 @@ JS libraries, plugins and custom scripts -->
 		value: 100.00, // Change this to the dynamic value you want to track
 		currency: 'THB' // Change to your desired currency (e.g., 'THB')
 	  });
-  
+	  
 	  // Submit the form after the event is tracked
-	  this.submit();
+	  event.target.submit();
 	});
   </script>
 
